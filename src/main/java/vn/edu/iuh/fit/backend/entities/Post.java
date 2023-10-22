@@ -46,5 +46,5 @@ public class Post {
     private Set<Post> posts=new LinkedHashSet<>();
     @OneToMany(mappedBy = "post",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
     private Set<PostComment> postComments=new LinkedHashSet<>();
-
+//ashk
 }
