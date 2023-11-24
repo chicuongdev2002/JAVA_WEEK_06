@@ -24,9 +24,9 @@ public class Post {
     @Lob
     @Column(name = "content",columnDefinition = "TEXT",nullable = false)
     private String content;
-    @Column(name = "meta_title",columnDefinition = "VARCHAR(100)",nullable = false)
+    @Column(name = "meta_title",columnDefinition = "VARCHAR(100)",nullable = true)
     private String metaTitle;
-    @Column(name = "summary",columnDefinition = "TEXT",nullable = false)
+    @Column(name = "summary",columnDefinition = "TEXT",nullable = true)
     private String summary;
     @Column(name = "created_at",columnDefinition = "DATETIME")
     private Instant createdAt;
@@ -34,7 +34,7 @@ public class Post {
     private Instant updateAt;
     @Column(name = "published_at",columnDefinition = "DATETIME")
     private Instant publishedAt;
-    @Column(name = "title",columnDefinition = "VARCHAR(75)",nullable = false)
+    @Column(name = "title",columnDefinition = "VARCHAR(75)",nullable = true)
     private String title;
     @ManyToOne
     @JoinColumn(name = "authorId")

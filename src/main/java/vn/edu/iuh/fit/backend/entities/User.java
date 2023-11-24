@@ -15,6 +15,7 @@ import java.util.Set;
 @Table(name = "users")
 public class User {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @Column(name="mobile",columnDefinition = "VARCHAR(15)")
     private String mobile;
