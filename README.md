@@ -18,4 +18,7 @@
 ![image](https://github.com/chicuongdev2002/JAVA_WEEK_06/assets/124854803/54e96565-da8b-4f6f-91c1-3b0c12dcedd7)
 - Trả lời cho bình luận
   ![Untitled3](https://github.com/chicuongdev2002/JAVA_WEEK_06/assets/124854803/7e5f19ce-4e7a-43b0-9e93-675e016e541f)
+  -Database cho việc postcomment
+    ![image](https://github.com/chicuongdev2002/JAVA_WEEK_06/assets/124854803/2a065dbf-06ca-43a6-860c-975c552fa0da)
+
 
